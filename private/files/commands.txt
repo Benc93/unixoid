@@ -1,0 +1,500 @@
+  130  ~ ls
+  131  ls
+  132  cd Downloads
+  133  cd Challenge 1
+  134  ls
+  135  cd Challenge 1
+  136  cd .. Challenge 1
+  137  ls
+  138  cd Challenge 1
+  139  pwd
+  140  cd Desktop
+  141  cd benjaminconway
+  142  ls
+  143  cd Downloads
+  144  ls
+  145  cd Challenge 1
+  146  Challenge 1
+  147  ls
+  148  cd Desktop
+  149  cd ..
+  150  ls
+  151  cd Desktop
+  152  ls
+  153  cd Challenge 1
+  154  cd 'Challenge 1'
+  155  mkDir New
+  156  ls
+  157  touch newFile
+  158  mv newFile ../New
+  159  cd New
+  160  ls
+  161  ls
+  162  touch newFile
+  163  ls
+  164  rm ewFile
+  165  rmnewFil
+  166  rm newFile
+  167  ls
+  168  cd ..
+  169  ls
+  170  touch newFile
+  171  ls
+  172  mv newFile New
+  173  ls
+  174  cd new
+  175  cd New
+  176  ls
+  177  pwd
+  178  cd Text Files
+  179  cd ..
+  180  cd Text Files
+  181  pwd
+  182  ls
+  183  cd Text Files
+  184  cd 'Text Files'
+  185  cd .
+  186  pwd
+  187  cd ..
+  188  pwd
+  189  man
+  190  mkdir
+  191  man ls
+  192  man mkdir
+  193  mkDir -p Foo/Bar/folders
+  194  ls
+  195  cd Foo
+  196  ls
+  197  ls -l
+  198  cd ..
+  199  ls -l
+  200  ls
+  201  ls -l
+  202  rmDir Empty Folder
+  203  rm 'Empty Folder'
+  204  rmDir 'Empty Folder'
+  205  ls
+  206  rmDir New
+  207  rmDir New -r
+  208  rm -r New
+  209  ls
+  210  cd 'Text Files'
+  211  ls
+  212  cp 'More text.txt' 'Learn to code.txt'
+  213  ls
+  214  head -5 'Learn to code.txt'
+  215  tail -5 'More text.txt'
+  216  pwd
+  217  less 'Learn to code.txt'
+  218  grep a *.txt
+  219  grep '^[a]*$' 'Learn to code'.txt
+  220  grep '^[a]*$' { print } 'Learn to code'.txt
+  221  ls
+  222  pwd
+  223  find . -line "a" -print
+  224  find . -name "a" -print
+  225  grep a 'Learn to code.txt'
+  226  grep a 'Learn to code.txt' | grep a
+  227  pwd
+  228  ls
+  229  touch blank
+  230  ls
+  231  rm blank
+  232  ls
+  233  touch blank
+  234  ls
+  235  ls *.txt
+  236  ls *n*
+  237  grep *n* 'Learn to code.txt'
+  238   grep *n* 'Learn to code.txt' -print
+  239  grep *n* 'Learn to code.txt' | -print
+  240  grep *n* 'Learn to code.txt'
+  241  grep *n* -print 'Learn to code.txt'
+  242  wc 'Learn to code.txt'
+  243  wc 'Less Text.txt'
+  244  ls *.txt
+  245  ls | grep *.txt wc
+  246  ls | grep *.txt 
+  247  ls
+  248  grep *.txt -print
+  249  grep *.txt
+  250  find -name "*.txt" -print 
+  251  pwd
+  252  find 'Text Files' -name "*.txt" -print 
+  253  find ~ -name "*.txt" -print | grep '*.txt'
+  254  find ~ -name "*.txt" -print 
+  255  find ~ -name "B"
+  256  find ~ -name "B" ls
+  257  man wc
+  258  env
+  259  $DAY=Wed
+  260  export DAY=Wed
+  261  echo &DAY
+  262  echo $DAY
+  263  cd ..
+  264  pwm
+  265  pwd
+  266  ls -l
+  267  chmod g+w More text.txt
+  268  chmod g+w 'More text.txt'
+  269  cd 'Text Files.txt'
+  270  pwd
+  271  cd 'Challenge 1'
+  272  cd 'Text Files'
+  273  chmod g+w 'More text.txt'
+  274  ls -l
+  275  chmod o-w 'More text.txt'
+  276  ls -l
+  277  chmod o-r 'More text.txt'
+  278  ls -l
+  279  cd ..
+  280  pwd
+  281  mkDir 'No Change'
+  282  ls
+  283  ls -l
+  284  chmod u-r 'More text.txt'
+  285  chmod u-r 'No Change'
+  286  ls -l
+  287  cd No Change
+  288  cd 'No Change'
+  289  touch be
+  290  ls
+  291  chmod g+w 'No Change'
+  292  cd ..
+  293  pwd
+  294  touch hello.rb
+  295  ls
+  296  hello.rb
+  297  cat > hello.rb
+  298  ruby hello.rb
+  299  ruby hello.rb
+  300  cat > hello.rb
+  301  ruby hello.rb
+  302  ./hello.rb
+  303  ./hello.rb
+  304  chmod u+x hollo.rb
+  305  chmod u+x hello.rb
+  306  ./hello.rb
+  307  ./hello.rb
+  308  irb
+  309  which ruby
+  310  ./hello.rb
+  311  ./hello.rb
+  312  ps x | grep chrome
+  313  ps
+  314  ps ls
+  315  ps
+  316  ps x
+  317  ps x | grep 'chrome' > 'Challenge 1/Chrome.list'
+  318  ps x | grep 'chrome'   >  'Challenge 1/Chrome.list'
+  319  grep 'chrome' ps x   >  'Challenge 1/Chrome.list'
+  320  ps x | grep 'chrome' | wc -1   >  'Challenge 1/Chrome.list'
+  321  ps x | grep 'chrome' | wc -1  
+  322  cat 
+  323  pwd
+  324  cd Desktop
+  325  cd 'Challenge 1'
+  326  cat 'Learn to code.txt' |grep 'a'
+  327  ls
+  328  cd 'Text Files
+  329  a
+  330  cd Desktop
+  331  cd 'Challenge 1'
+  332  cd 'Text Files'
+  333  cat 'Learn to code.txt' | grep 'a'
+  334  cat 'Learn to code.txt' -print | grep 'a'
+  335  cat 'Learn to code.txt' -print | grep 'a'
+  336  cat 'Learn to code.txt' -print | grep 'a'
+  337  cat 'Learn to code.txt' -print | grep 'a'
+  338  cat 'Learn to code.txt' -print | grep 'a'
+  339  cat 'Learn to code.txt' -print | grep 'a'
+  340  cat 'Learn to code.txt' -print | grep 'a'
+  341  cat 'Learn to code.txt' -print | grep 'a' | wc 
+  342  ps x 
+  343  ps x | grep 'chrome'
+  344  ps x | grep 'chrome' | > chrome.list
+  345  ls
+  346  cat chrome.list
+  347  print chrome.list
+  348  git --version
+  349  git config --global user.name "Ben Conway"
+  350  hostname
+  351  git config --global user.email "bendavidconway@me.com"
+  352  git config --global core.autocrlf input
+  353  git config --global core.safecrlf true 
+  354  mkDir gitDir
+  355  cd gitDir
+  356  echo "Git is awesome" > gitText
+  357  git init
+  358  git add gitText
+  359  git commit -m "First commit"
+  360  git statue
+  361  y
+  362  git status
+  363  echo "This text was changed" > gitText
+  364  git status
+  365  git add gitText
+  366  git status
+  367  git commit -m "Updated gitText"
+  368  git status
+  369  git log
+  370  rm gitText
+  371  touch moreGitText
+  372  git status
+  373  git add moreGitText
+  374  git status
+  375  rm gitText
+  376  rm 'gitText'
+  377  git status
+  378  git commit -m "deleted gitText"
+  379  git status
+  380  git commit -m "Deleted gitText"
+  381  git status
+  382  git rm gitText
+  383  git status
+  384  git commit -m "Deleted gitText"
+  385  git status
+  386  git log
+  387  git checkout 5b82ca6bdf12
+  388  ls
+  389  cat gitText
+  390  git checkout master
+  391  ls
+  392  cat moreGitTa\ext
+  393  cat moreGitText
+  394  ls -al ~/.ssh
+  395  ssh-keygen -t rsa -C "bendavidconway@me.com"
+  396  eval "$(ssh-agent -s)"
+  397  ssh-add ~/.ssh/id_rsa
+  398  pbcopy < ~/.ssh/id_rsa.pub
+  399  ssh -T git@github.com
+  400  git remote -v
+  401  git remote add origin git@github.com:makersacademy/playing-with-git.git
+  402  git remote add origin git@github.com:Benc93/playing-with-git.git
+  403  git remote -v
+  404  cat .git/config
+  405  git push -u origin master
+  406  git remote -v
+  407  git remote add origin git@github.com:Benc93/playing-with-git.git
+  408  git remote add origin git@github.com:makersacademy/playing-with-git.git
+  409  git remote add origin git@github.com:makersacademy/playing-with-git.git
+  410  git remote add origin git@github.com:makersacademy/playing-with-git.git
+  411  git remote rm origin git@github.com:makersacademy/playing-with-git.git
+  412  remote -v
+  413  git remote add origin git@github.com:Benc93/playing-with-git.git
+  414  remote -v
+  415  git remote -v
+  416  git rm origin git@github.com:makersacademy/playing-with-git.git
+  417  git remote rm origin git@github.com:makersacademy/playing-with-git.git
+  418  git remote -v
+  419  git remote remove git@github.com:makersacademy/playing-with-git.git
+  420  git remote rm origin
+  421  git remote -v
+  422  git remote add origin git@github.com:Benc93/playing-with-git.git
+  423  git remote -v
+  424  cat .git/config
+  425  git push -u origin master
+  426  git push
+  427  git pull origin master
+  428  git pull
+  429  git log
+  430  git pull
+  431  pwd
+  432  cd Desktop
+  433  ls
+  434  mkDir -p my/private/files
+  435  ls
+  436  mkDir -p my/public/files
+  437  ls
+  438  cd my
+  439  cd private
+  440  cd files
+  441  touch 't-vars.env'
+  442  ls
+  443  cat > 't-vars.env' 
+  444  cat 't-vars.env'
+  445  echo env | grep '^T' | ls
+  446  env | grep '^T' | ls
+  447  env
+  448  env | grep '^T'
+  449  cat env | grep '^T' > 't-vars.env'
+  450  env | grep '^T' > 't-vars.env'
+  451  cat t-vars.env
+  452  rm t-vars.env
+  453  ls
+  454  pwd
+  455  touch t-vars.env
+  456  ls
+  457  cat > t-vars.env
+  458  cat t-vars.env
+  459  cat t-vars.env
+  460  cat > t-vars.env
+  461  cat t-vars.env
+  462  env | grep '^T' > 't-results'
+  463  ls
+  464  cat t-results t-vars.env > t-vars.env
+  465  ls
+  466  t-results
+  467  cat t-results
+  468  cat t-vars.env t-results
+  469  ls
+  470  cd desktop
+  471  ls
+  472  cd my
+  473  cd private
+  474  ls
+  475  cd files
+  476  ls
+  477  cat t-vars.env
+  478  pwd
+  479  cd Desktop
+  480  cd my
+  481  cd private
+  482  cd files
+  483  ls
+  484  rm t-vars.env
+  485  ls
+  486  env | grep '^T'
+  487  touch t-vars.env
+  488  ls
+  489  cat t-vars.env
+  490  cat > t-vars.env
+  491  cat t-vars.env
+  492  env | grep '^T' >> t-vars.env
+  493  cat t-vars.env
+  494  ls
+  495  rm t-results
+  496  ls
+  497  export TESTING_MAKERS=working
+  498  echo $TESTING_MAKERS
+  499  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+  500  echo $TESTING_MAKERS
+  501  env | grep '^T' | wc  > my/public/files/t-vars.count
+  502  pwd
+  503  cd desktop
+  504  cd
+  505  cd my
+  506  pwd
+  507  cd desktop
+  508  cd my
+  509  cd public
+  510  cd files
+  511  ls
+  512  env | grep '^T' | wc  > my/public/files/t-vars.count
+  513  env | grep '^T' | wc > t-vars.count
+  514  ls
+  515  cat t-vars.count
+  516  env | grep '^T' | wc
+  517  env | grep '^T'
+  518  env | grep '^T' | wc -1
+  519  env | grep '^T' | wc -l
+  520  ls
+  521  rm t-vars.count
+  522  ls
+  523  touch t-vars.count
+  524  ls
+  525  cat > t-vars.count
+  526  cat t-vars.count
+  527  env | grep '^T' | wc -l >> t-vars.count
+  528  cat t-vars.count
+  529  cd ..
+  530  pwd
+  531  cd ..
+  532  pwd
+  533  cd private
+  534  ls
+  535  cd files
+  536  ls
+  537  ls -l
+  538  chmod go-rw t-vars.env
+  539  ls -l
+  540  cd ..
+  541  ls
+  542  pwd
+  543  chmod go-rw files
+  544  ls -l
+  545  cd ..
+  546  cd ..
+  547  pwd
+  548  cd my
+  549  cd public
+  550  ls
+  551  cd files
+  552  ls
+  553  ls -l
+  554  chmod go+rw t-vars.count
+  555  ls -l
+  556  pwd
+  557  touch text-files-count.txt
+  558  ls
+  559  find ~ -name "*.txt" -print
+  560  find ~ -name "*.txt" | wc -l >> text-files.count.txt
+  561  pwd
+  562  find ~ "*.txt" | wc -l
+  563  find ~ -name "*.txt"
+  564  find ~ -name "*.txt" | wc -l
+  565  find ~ -name "*.txt" | wc -l >> text.files.count.txt
+  566  cat text-files-count.txt
+  567  find ~ -name "*.txt" | wc -l >> text.files.count.txt
+  568  ls
+  569  rm text-files.count.txt
+  570  rm text.files.count.txt
+  571  cat text-files-count.txt
+  572  find ~ -name "*.txt" | wc -l >> text-files-count.txt
+  573  cat text-files-count.txt
+  574  pwd
+  575  cd ..
+  576  cd ..
+  577  pwd
+  578  cd private
+  579  cd files
+  580  touch first-three-env.txt
+  581  ls
+  582  env | sort
+  583  env
+  584  env | sort > alpha.text | head -3
+  585  ls
+  586  cat alpha.text
+  587  rm alpha.text
+  588  ls
+  589  env | sort | head -3 >> first-three-env.txt
+  590  cat first-three-env.txt
+  591  env | sort
+  592  cat first-three-env.txt
+  593  rm first-three-env.txt
+  594  ls
+  595  env > env.txt
+  596  cat env.txt
+  597  sort -d env.txt > env_abo.txt
+  598  env_abo.txt
+  599  cat env_abo.txt
+  600  ls
+  601  rm env.txt
+  602  rm env_abo.txt
+  603  ls
+  604  env | sort
+  605  env > envraw.txt
+  606  sort envraw.txt > envabo.txt
+  607  cat envabo.txt
+  608  ls
+  609  head -3 envabo.txt > first-three-env.txt
+  610  ls
+  611  first-three-env.txt
+  612  cat first-three-env.txt
+  613  head -2 envabo.txt > first-three-env.txt
+  614   cat first-three-env.txt
+  615  head -2 envabo.txt > first-three-env.txt3
+  616  cat first-three-env.txt
+  617  ls
+  618  rm first-three-env.txt3
+  619  ls
+  620  rm first-three-env.txt
+  621  ls
+  622  head -3 envabo.txt > first-three-env.txt 
+  623  ls
+  624  cat first-three-env.txt
+  625  rm envabo.txt
+  626  rm envraw.txt
+  627  ls
+  628  pwd
+  629  history > commands.txt
