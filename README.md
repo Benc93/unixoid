@@ -1,4 +1,4 @@
-##Pre-course challenge: Unixoid
+##Makers Academy Pre-course challenge: Unixoid
 
 ![dribbble-unixoid](https://cloud.githubusercontent.com/assets/9297921/5589112/d31d1236-910e-11e4-906c-76afd36b280c.jpg)
 
