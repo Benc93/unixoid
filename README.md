@@ -1,5 +1,7 @@
 ##Pre-course challenge: Unixoid
 
+![dribbble-unixoid](https://cloud.githubusercontent.com/assets/9297921/5589112/d31d1236-910e-11e4-906c-76afd36b280c.jpg)
+
 ####Summary of Activity 
     
 This was a very structured pre-course challenge on the Makers Academy pre-course material.
@@ -23,8 +25,6 @@ The step-by-step challenge criteria were as follows:
     
 ####Lessons Learned     
    
-This was my first flurry into programming on the Makers Academy course. As far as lessons to take away - new concepts can be incredibly daunting even if they are apparently simple. They often require revisiting and much practical reinforcement before they become properly understood. The main lesson (and its not the first or last time it's been learned) is not to be discouraged when trying something new. You suck at it, and its ok - everybody does initially! 
-   
-This contents of this exercise were central to some of the subsequest challenges during the pre-course section. 
+This was quite a structured challenge, mainly confirming earlier material on the pre-course list. The challenge was centred around the command line, and wasn't one of the more fun activities - but was very important to know for the upcoming course. 
 
 **END**
